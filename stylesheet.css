@@ -115,12 +115,17 @@ background: none;
     margin-top: 10em;
 }
 
+<<<<<<< HEAD
 .bannerDiv .content h1 {
     color: white;
 }
 
 .banner-image { 
     background-image: url('https://wallpaperaccess.com/full/148418.jpg');
+=======
+.banner-image { /* https://images.unsplash.com/photo-1585314062653-868711dc4627?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80 */
+    background-image: url('https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1150&q=80');
+>>>>>>> 4b8bd63c2f0055fa95841c0f2439dab56c55d70a
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
