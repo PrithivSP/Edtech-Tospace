@@ -27,7 +27,7 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body>
+  <bo>
     <div class="banner-image w-100 vh-100">
       <!-- navbar -->
       <nav class="navbar navbar-expand-lg navbar-transparent">
@@ -44,7 +44,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"><i class="fa-regular fa-flatbread-stuffed"></i></span>
+          <i class="fas fa-volleyball-ball"></i>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
@@ -95,31 +95,11 @@
             <strong>Raise  your level of knowledge from zero to hero</strong>
           </h6>
           <div class="banner-btns pt-4">
-           <!-- Button trigger modal -->
-          <button type="button" class="btn banner-btn-demo" data-bs-toggle="modal" data-bs-target="#staticBackdropsed">
-            <a href="#">Try a demo</a>
-          </button>
-
-          <!-- Modal -->
-          <div class="modal fade" id="staticBackdropsed" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-2" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/PkZNo7MFNFg" title="Learn JavaScript - Full Course for Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen SECURE_REFERRER_POLICY = "no-referrer-when-downgrade"></iframe>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                  <button type="button" class="btn btn-primary">Understood</button>
-                </div>
-              </div>
-            </div>
-          </div>
+            <button type="button"  class="banner-btn-demo">
+              <a href="#StudentEnroll">Try a demo</a>
+            </button>
             <button type="button" class="banner-btn-buyNow">
-              <a href="#">Buy Now</a>
+              <a href="#projects">Buy Now</a>
             </button>
           </div>
         </div>
@@ -154,15 +134,38 @@
         about the space industry.
       </p>
 
-      <div class="d-flex justify-content-center">
+      <div id="StudentEnroll" class="d-flex justify-content-center">
         <div class="div-img">
           <!-- <img class="img-fluid" src="assets/tospaceIntroImg.png" alt="" /> -->
           <div class="div-img-content">
             <h4 class="text-center text-white">FOR STUDENTS</h4>
             <div class="d-flex justify-content-center align-items-center py-3">
-              <button type="button" class="div-img-content-btn">
-                <a class="div-img-content-a" href="#">Start a class today</a>
+              <button type="button" class="">
+                <a class="" href="#"></a>
               </button>
+              <!-- Button trigger modal -->
+          <button type="button" class="div-img-content-btn" data-bs-toggle="modal" data-bs-target="#staticBackdropsed">
+            <a class="div-img-content-a" href="#">Start a class today</a>
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="staticBackdropsed" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-2" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <iframe width="100%" height="500" src="https://www.youtube.com/embed/PkZNo7MFNFg" title="Learn JavaScript - Full Course for Beginners" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen SECURE_REFERRER_POLICY = "no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <!-- <button type="button" class="btn btn-primary">Understood</button> -->
+                </div>
+              </div>
+            </div>
+          </div>
             </div>
           </div>
         </div>
@@ -170,7 +173,7 @@
     </div>
 
     <!-- Project section -->
-    <div class="projects pt-2 pb-5">
+    <div id="projects" class="projects pt-2 pb-5">
       <div class="container">
         <h1 class="text-white mt-5 mb-4 pb-3">Our Courses</h1>
         <div class="row">
@@ -311,16 +314,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-
-
-            
-
           </div>
-        </div>
-        </div>
-      </div>
-    </div>
+    
 
     <div class="Feedback">
       <div class="container">
