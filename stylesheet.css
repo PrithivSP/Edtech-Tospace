@@ -11,6 +11,8 @@
     --tertiary: #1A73E8;
 }
 
+
+
 body {
     background-color: var(--secondary);
 }
@@ -18,6 +20,11 @@ body {
 .span {
     color: var(--tertiary);
 }
+
+/* iframe {
+    max-width:  70% !important;
+    max-height: 50% !important;
+} */
 
 /* Navbar */
 
@@ -208,6 +215,13 @@ background: none;
 
 .banner-btns .banner-btn-buyNow a:hover {
     color: var(--secondary);
+}
+
+
+@media (max-width: 767px) {
+    .banner-btn-demo {
+        display: none;
+    }
 }
 
 /* trustedComp */
